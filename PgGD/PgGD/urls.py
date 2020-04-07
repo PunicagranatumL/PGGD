@@ -19,5 +19,5 @@ from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pomesite/'include('pomesite.urls',namespace="pomesite")),
+    path('pomesite/',include('pomesite.urls',namespace="pomesite")),
 ]

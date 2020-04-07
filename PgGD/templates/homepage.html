@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>首页</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Pomegranate Genome Database</a>
+        <ul class="nav nav-pills njustify-content-end">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
+            <li class="nav-item dropdown show">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" >Tools</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Blast</a>
+                    <a class="dropdown-item" href="#">JBroswe</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">GO/KEGG</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Transcriptome</a></li>
+        </ul>
+    </div>
+    </nav>
+    <br>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- 指示符 -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- 轮播图片 -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+        </div>
+        <div class="carousel-item">
+          <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+        </div>
+        <div class="carousel-item">
+          <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+        </div>
+      </div>
+
+      <!-- 左右切换按钮 -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+    <br>
+
+    <div class="jumbotron">
+        <h1>A Brief Introduction</h1>
+	    <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+    </div>
+
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h2 class="border-bottom border-gray pb-2 mb-0">Pomegranate genome articles</h2>
+        <div class="media text-muted pt-3">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <h4 class="d-block text-gray-dark"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/pbi.12875">Taishanhong</a></h4>
+                    <a href="#">PDF</a>
+                </div>
+                <br>
+                <span class="d-block">Zhaohe Yuan, Yanming Fang, Taikui Zhang, Zhangjun Fei, Fengming Han, Cuiyu Liu, Min Liu, Wei Xiao, Wenjing Zhang, Shan Wu, Mengwei Zhang, Youhui Ju, Huili Xu, He Dai, Yujun Liu, Yanhui Chen, Lili Wang, Jianqing Zhou, Dian Guan, Ming Yan, Yanhua Xia, Xianbin Huang, Dongyuan Liu, Hongmin Wei, Hongkun Zheng. The pomegranate ( Punica granatum L.) genome provides insights into fruit quality and ovule developmental biology[J]. Plant Biotechnology Journal,2018,16(7).</span>
+                <br>
+            </div>
+        </div>
+
+
+        <div class="media text-muted pt-3">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <h4 class="d-block text-gray-dark"><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.13625">Dabenzi</a></h4>
+                    <a href="#">PDF</a>
+                </div>
+                <br>
+                <span class="d-block">Gaihua Qin, Chunyan Xu, Ray Ming, Haibao Tang, Romain Guyot, Elena M. Kramer, Yudong Hu, Xingkai Yi, Yongjie Qi, Xiangyang Xu, Zhenghui Gao, Haifa Pan, Jianbo Jian, Yinping Tian, Zhen Yue, Yiliu Xu. The pomegranate ( Punica granatum L.) genome and the genomics of punicalagin biosynthesis[J]. The Plant Journal,2017,91(6).</span>
+                <br>
+            </div>
+        </div>
+
+
+        <div class="media text-muted pt-3">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <h4 class="d-block text-gray-dark"><a href="https://onlinelibrary.wiley.com/doi/10.1111/pbi.13260">Tunisia</a></h4>
+                    <a href="#">PDF</a>
+                </div>
+                <br>
+                <span class="d-block">Xiang Luo, Haoxian Li, Zhikun Wu, Wen Yao, Peng Zhao, Da Cao, Haiyan Yu, Kaidi Li, Krishna Poudel, Diguang Zhao, Fuhong Zhang, Xiaocong Xia, Lina Chen, Qi Wang, Dan jing, Shangyin Cao. The pomegranate (Punica granatum L.) draft genome dissects genetic divergence between soft‐ and hard‐seeded cultivars[J]. Plant Biotechnology Journal,2020,18(4).</span>
+                <br>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

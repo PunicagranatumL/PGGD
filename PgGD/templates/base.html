@@ -1,0 +1,28 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!--预留网站标题位置-->
+    <title>{% block title %}{% endblock %}</title>
+    <!--引入bootstrap的css文件-->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+
+    <!--引入js文件-->
+    <script src="{% static 'jquery/jquery-3.3.1.js' %}"></script>
+    <script rel="stylesheet" href="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script sec="{% static 'propper/propper-1.14.4.js' %}"></script>
+</head>
+<body>
+    <!--引入导航栏-->
+    {% include 'header.html' %}
+    <!--预留页面具体位置-->
+    {% block content %}{% endblock content %}
+    <!--引入注脚-->
+    {% include 'footer.html' %}
+</body>
+
+
+
+</html>
